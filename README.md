@@ -1,9 +1,6 @@
 # Stata language support in Visual Studio Code
-[![GitHub stars](https://img.shields.io/github/stars/kylebarron/language-stata.svg?style=social&label=Star)](https://github.com/kylebarron/language-stata)
-[![GitHub forks](https://img.shields.io/github/forks/kylebarron/language-stata.svg?style=social&label=Fork)](https://github.com/kylebarron/language-stata)
 
 #### Stata syntax highlighting in Visual Studio Code, built from the ground up.
-Also [available for Atom](https://github.com/kylebarron/language-stata).
 
 ![stata](./img/stata-vscode.png)
 Code snippet from [Gtools](https://github.com/mcaceresb/stata-gtools), a faster implementation of Stata's collapse and egen using C plugins. Shown with the [Material](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) theme.
@@ -39,12 +36,6 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 ext install stata-enhanced
 ```
 
-## Running Code
-
-This package doesn't have the capabilities to run your code in Stata. If you're using Linux, you can use my [scripts](https://github.com/kylebarron/stata-autokey) with the [Autokey](https://github.com/autokey-py3/autokey) automation utility to quickly run selections of your files in a graphical session of Stata.
-
-You might also be interested in trying to port Atom's `stata-exec` package.
-
 ## Dynamic Documents
 
 ![](img/dyntext_domd.png)
@@ -77,3 +68,7 @@ pandoc dyntext.md -o dyntext.pdf
 on the command line using [Pandoc](https://pandoc.org/).
 
 The file [`dyntext.dotex`](examples/dyntext.dotex) is a proof-of-concept and should compile with LaTeX but the output is not shown here.
+
+## Acknowledgements
+
+This extension was forked from [the vscode branch of kylebarron/language-stata](https://github.com/kylebarron/language-stata/tree/vscode).
